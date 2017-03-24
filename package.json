@@ -1,7 +1,7 @@
 {
   "name": "express-helloworld",
   "version": "1.0.0",
-  "description": "runs express app that says hello world",
+  "description": "express app that says hello world",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
