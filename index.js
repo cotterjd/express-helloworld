@@ -1,9 +1,9 @@
-const log = console.log
+const { log } = console
 , app = require('express')()
 , bodyParser = require('body-parser')
 ;
 
-app.set('port', (process.env.PORT || 3000))
+app.set('port', 3000)
 app.use(bodyParser.json()) // to be able to receive json in requests
 
 app.get('/', function (req, res) {
